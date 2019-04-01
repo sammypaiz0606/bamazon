@@ -1,0 +1,19 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "'A CLI-base storefront with the MySQL database backend.'",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sammypaiz0606/bamazon.git"
+  },
+  "author": "sammy paiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sammypaiz0606/bamazon/issues"
+  },
+  "homepage": "https://github.com/sammypaiz0606/bamazon#readme"
+}
