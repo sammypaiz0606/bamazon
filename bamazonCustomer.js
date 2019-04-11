@@ -1,3 +1,5 @@
+
+    
 // Pull in required dependencies
 var inquirer = require('inquirer');
 var mysql = require('mysql');
@@ -11,8 +13,8 @@ var connection = mysql.createConnection({
 	user: 'root',
 
 	// Your password
-	password: '',
-	database: 'Bamazon'
+	password: '12345',
+	database: 'bamazon'
 });
 
 // validateInput makes sure that the user is supplying only positive integers for their inputs

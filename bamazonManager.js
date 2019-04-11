@@ -11,8 +11,8 @@ var connection = mysql.createConnection({
 	user: 'root',
 
 	// Your password
-	password: '',
-	database: 'Bamazon'
+	password: '12345',
+	database: 'bamazon'
 });
 
 // promptManagerAction will present menu options to the manager and trigger appropriate logic
