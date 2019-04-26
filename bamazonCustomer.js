@@ -1,5 +1,3 @@
-
-    
 // Pull in required dependencies
 var inquirer = require('inquirer');
 var mysql = require('mysql');
@@ -126,6 +124,8 @@ function displayInventory() {
 			strOut += 'Product Name: ' + data[i].product_name + '  //  ';
 			strOut += 'Department: ' + data[i].department_name + '  //  ';
 			strOut += 'Price: $' + data[i].price + '\n';
+			strOut += 'Qunatity:' + data[i].stock_quantity + '\n';
+
 
 			console.log(strOut);
 		}
